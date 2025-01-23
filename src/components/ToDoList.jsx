@@ -34,6 +34,7 @@ export default function ToDoList({ todoList, setTodoList }) {
             key={column.id}
             column={column}
             todoList={todoList.filter((todo) => todo.status === column.id)}
+            setTodoList = {setTodoList}
           />
         ))}
       </DndContext>
