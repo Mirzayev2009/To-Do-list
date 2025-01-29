@@ -51,7 +51,7 @@ export function ToDoForm() {
             name="todo"
             render={({ field }) => (
               <FormItem>
-                <FormLabel className="font-semibold text-gray-700">
+                <FormLabel className="font-semibold text-gray-600">
                   Enter ToDo
                 </FormLabel>
                 <FormControl>
